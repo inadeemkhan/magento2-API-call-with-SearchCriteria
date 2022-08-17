@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Menastore\Brands\Api\BrandsManagementInterface" type="Menastore\Brands\Model\BrandsManagement"/>
+	<preference for="Menastore\Brands\Api\BrandsByIdManagementInterface" type="Menastore\Brands\Model\BrandsByIdManagement"/>
+	<preference for="Menastore\Brands\Api\BrandsCollectionManagementInterface" type="Menastore\Brands\Model\BrandsCollectionManagement"/>
+	<preference for="Menastore\Brands\Api\BrandsByProductIdManagementInterface" type="Menastore\Brands\Model\BrandsByProductIdManagement"/>
+
+	<preference for="Menastore\Brands\Api\ProductCollectionInterface" type="Menastore\Brands\Model\ProductManagementModel" />
+</config>

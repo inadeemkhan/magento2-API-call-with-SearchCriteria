@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+	<route url="/V1/brands/collection" method="GET">
+		<service class="Menastore\Brands\Api\BrandsManagementInterface" method="getBrands"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/products/brand/:brandID" method="GET">
+		<service class="Menastore\Brands\Api\BrandsByIdManagementInterface" method="execute"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	
+	<route url="/V1/products/collection/:brandID" method="GET">
+		<service class="Menastore\Brands\Api\BrandsCollectionManagementInterface" method="execute"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/products/productbyid/:product_id" method="GET">
+		<service class="Menastore\Brands\Api\BrandsByProductIdManagementInterface" method="execute"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/brands/product/collection/" method="GET">
+		<service class="Menastore\Brands\Api\ProductCollectionInterface" method="getProductList"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+</routes>
