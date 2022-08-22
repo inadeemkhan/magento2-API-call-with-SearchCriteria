@@ -1,6 +1,6 @@
 {
-    "name": "menastore/module-brands",
-    "description": "Menastore_Brands",
+    "name": "nadeem/module-products",
+    "description": "magento2 free extension API call with SearchCriteria.",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Menastore\\Brands\\": ""
+            "Nadeem\\Products\\": ""
         }
     }
 }
