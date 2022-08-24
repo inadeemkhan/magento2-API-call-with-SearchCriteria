@@ -9,7 +9,7 @@
 ## Main Functionalities
 magento2 free extension API call with SearchCriteria.
 
-[<img src="https://github.com/inadeemkhan/magento2-images/blob/master/ProductCollectionPostman.png" target="_blank"/>]
+<img src="https://github.com/inadeemkhan/magento2-images/blob/master/ProductCollectionPostman.png" target="_blank"/>
 
 ## Installation
 \* = in production please use the `--keep-generated` option
