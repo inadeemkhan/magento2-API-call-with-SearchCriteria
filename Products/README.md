@@ -1,7 +1,4 @@
 # Mage2 Module Nadeem Products
-
-    ``nadeem/module-products``
-
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
  - [Configuration](#markdown-header-configuration)
@@ -11,6 +8,8 @@
 
 ## Main Functionalities
 magento2 free extension API call with SearchCriteria.
+
+[<img src="https://github.com/inadeemkhan/magento2-images/blob/master/ProductCollectionPostman.png" target="_blank"/>]
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -36,9 +35,6 @@ magento2 free extension API call with SearchCriteria.
 
 
 ## Configuration
-
-
-
 
 ## Specifications
 
