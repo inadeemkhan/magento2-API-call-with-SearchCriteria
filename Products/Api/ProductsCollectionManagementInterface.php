@@ -7,10 +7,12 @@ interface ProductsCollectionManagementInterface
 {
 
     /**
-     * GET for productsCollection api
-     * @param string $param
-     * @return string
+     * Get product list
+     *
+     * @param \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria
+     * @return \Magento\Catalog\Api\Data\ProductSearchResultsInterface
+     * @param string $brand_id
+     * 
      */
-    public function getProductsCollection($param);
+    public function getProductsCollection(\Magento\Framework\Api\SearchCriteriaInterface $searchCriteria);
 }
-
