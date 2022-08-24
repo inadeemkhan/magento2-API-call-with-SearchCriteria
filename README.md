@@ -1,11 +1,5 @@
 # magento2-API-call-with-SearchCriteria
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
-
-
+ 
 ## Main Functionalities
 magento2 free extension API call with SearchCriteria.
 
